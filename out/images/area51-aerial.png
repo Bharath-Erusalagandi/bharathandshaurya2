@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+   <TITLE>404 Error Page</TITLE>
+   <META NAME="Author" CONTENT="Joerg H. Arnu">
+<!-- Disable right-click -->
+<script language="JavaScript">
+<!--
+
+var message="(C) Copyright 1999-" + new Date().getFullYear() + ", Dreamland Resort\nUnauthorized use of our material prohibited\nSee our Copyright Policy link at the bottom\nof each page for details";
+
+document.addEventListener ('contextmenu', function (event) { 
+	if (!event.target.matches ('a[href]')) {
+		event.preventDefault ();
+		alert (message);
+	}
+});
+
+document.addEventListener ('dragstart', function (event) { 
+//	if (event.target.tagName === "IMG") {
+// this is mostly meant to prevent copying images; but in Firefox the property is "A" for images that
+// have a link also, Edge allows copying text, property is "undefined" in that case; for now prevent
+// all dragging unless it causes issues
+		event.preventDefault ();
+//	}
+});
+
+// -->
+</script>
+
+<!-- Disable right-click -->
+
+</HEAD>
+
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#FFFF00" VLINK="#80FF00" ALINK="#C0FFC0">
+<CENTER><H2><FONT COLOR="#FFFF00">Dreamland Resort</FONT></H2></CENTER>
+<hr WIDTH="90%" ALIGN="center" SIZE=3>
+
+<CENTER>
+<P>
+</CENTER>
+
+<P>&nbsp;</P>
+<CENTER><H3><FONT FACE="ARIAL" COLOR="RED"><B>Oops, that page was abducted by aliens.</B></FONT></H3>
+<CENTER><H3><FONT FACE="ARIAL" COLOR="RED"><B><FONT COLOR="YELLOW">Alienstock</FONT> information has moved. <A HREF="http://www.noalienstock.com/">Click here</A></B></FONT></H3>
+<H3><FONT FACE="ARIAL" COLOR="RED">Or click on the Warning Sign to continue...</FONT></H3></CENTER>
+<CENTER><A HREF="https://www.dreamlandresort.com/" TARGET="_top"><IMG SRC="/warning.gif" TITLE="Click here to enter" BORDER=0></A></CENTER>
+<P>&nbsp;</P>
+<CENTER><FONT FACE=Arial COLOR=#40FF40><B>
+Local time at Area 51 is Wednesday, May 07, 2025;  1:31 PM
+
+</B></FONT></CENTER>
+</BODY>
+</HTML>
